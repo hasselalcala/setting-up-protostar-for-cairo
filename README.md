@@ -8,24 +8,24 @@ I choose protostar because allows you to test your StarkNet smart contracts with
 
 ## First part. 
 
-We need a Wallet that supports Starknet, such as ArgentX, which can be used for interacting with native Starknet contracts. We use a chrome extension to install ArgentX: 
+We need a Wallet that supports Starknet, such as ArgentX, which can be used for interacting with native Starknet contracts. We use a chrome extension to install ArgentX, [here](https://chrome.google.com/webstore/detail/argent-x/dlcobpjiigpikoobohmabehhmhfoodbb?hl=es-419).
+
+![ArgentX_extension](https://user-images.githubusercontent.com/83148363/210157525-45b7f1cc-b349-4804-bda6-fcbd7c8e995c.png)
+
+Once we have the extension, we create a new Wallet and account. 
+
+![ArgentX_environment](https://user-images.githubusercontent.com/83148363/210157535-310cce3a-1c68-4182-aaf3-111b82256bdb.png)
+
+Copy your account address and go to the [Starknet faucet](https://faucet.goerli.starknet.io/) to obtain some founds.
+
+![starkNet_Faucet](https://user-images.githubusercontent.com/83148363/210157538-ef8503a3-f9ce-4569-8dc0-e9f42631a1da.png)
+
+Wait a few minutes, until the account contract be deploy in the network, to verify this you can check in Starkscan using the account address or using your argent wallet go to the activity option and you can see the transaction:
 
 ```
-https://chrome.google.com/webstore/detail/argent-x/dlcobpjiigpikoobohmabehhmhfoodbb?hl=es-419
-
-
-
-Create a new Wallet and account 
-
-Copy your account address and go to the starkness faucet to obtain some founds https://faucet.goerli.starknet.io/
-
-
-
-
-Wait a few minutes, until the account contract be deploy in the network, to verify this you can check in starkscan using the account address or using your argent wallet go to the activity option and you can see the transaction 
-
 https://testnet.starkscan.co/
 https://goerli.voyager.online/
+```
 
 Now, let’s install brew, python3.9 and Cairo-lang environment in our computer. Open terminal and use the following command:
 
