@@ -1,0 +1,9 @@
+[project]
+protostar-version = "0.9.1"
+lib-path = "lib"
+
+[contracts]
+calculator = ["src/calculator.cairo"]
+
+["protostar.build"]
+cairo-path = ["./lib/cairo_contracts/src"]

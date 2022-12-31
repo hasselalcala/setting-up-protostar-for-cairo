@@ -1,0 +1,130 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "numOne",
+                "type": "felt"
+            },
+            {
+                "name": "numTwo",
+                "type": "felt"
+            }
+        ],
+        "name": "set_Sum",
+        "outputs": [
+            {
+                "name": "resSum",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "numOne",
+                "type": "felt"
+            },
+            {
+                "name": "numTwo",
+                "type": "felt"
+            }
+        ],
+        "name": "set_Sub",
+        "outputs": [
+            {
+                "name": "resSub",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "numOne",
+                "type": "felt"
+            },
+            {
+                "name": "numTwo",
+                "type": "felt"
+            }
+        ],
+        "name": "set_Mul",
+        "outputs": [
+            {
+                "name": "resMult",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "numOne",
+                "type": "felt"
+            },
+            {
+                "name": "numTwo",
+                "type": "felt"
+            }
+        ],
+        "name": "set_Div",
+        "outputs": [
+            {
+                "name": "resDiv",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "get_Sum",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "get_Sub",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "get_Mul",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "get_Div",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
