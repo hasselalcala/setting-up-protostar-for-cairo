@@ -1,4 +1,16 @@
-Download chrome extension
+# Setting up protostar dev environment for cairo 
+
+Last 3 weeks I have been learning about cairo language and how to deploy contract in Starknet. Starkware (company who developes this solutions) provides a lot of documentation, but it was really hard for me to configure and execute a contract in the testnet. 
+
+First, to configurate the enviroment and learn about Cairo language, you can check the official docs right [here](https://www.cairo-lang.org/docs/). Also, there exist a [Youtube Channel](https://www.youtube.com/@starkware_ltd/streams) and I read this [article](https://medium.com/starknet-edu/choosing-a-starknet-development-tool-d4335d0e62a5) with some suggestion to choose a Development Tool.  
+
+I choose protostar because allows you to test your StarkNet smart contracts with Cairo Language. In the following sections I show you the steps that I did to setting up protostar for a simple calculator contract and the main basis to create a test, project compilation and deploy it in the testnet. 
+
+## First part. 
+
+We need a Wallet that supports Starknet, such as ArgentX, which can be used for interacting with native Starknet contracts. We use a chrome extension to install ArgentX: 
+
+```
 https://chrome.google.com/webstore/detail/argent-x/dlcobpjiigpikoobohmabehhmhfoodbb?hl=es-419
 
 
