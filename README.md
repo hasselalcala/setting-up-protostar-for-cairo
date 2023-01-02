@@ -178,19 +178,31 @@ protostar deploy [CLASS_HASH] --network testnet --max-fee auto --account-address
 
 ## Interact with the contract
 
-//Executing external function with invoke command
+### Executing external function with invoke command
 
+```
 protostar invoke --contract-address 0x04ad3b268905128c7f5b9a71fa40bc38038aafc53ff6c0280ead2ddd615ffe9e --function "set_Sum" --network testnet --account-address 0x01432C1d26d4b210A8cd7e3418F5aad4886FCA75b579da88D73c3C0902E192dD --max-fee auto --inputs 3 5 
+```
+
+We obtain: 
+```
 Sending invoke transaction...                                                                                                                               
 Invoke transaction was sent.
 Transaction hash: 0x00badbee6ae75ebfee51c89b0ad23d3b0331b1962d87d709a9dd3eb0fc63bd39
 StarkScan https://testnet.starkscan.co/tx/0x00badbee6ae75ebfee51c89b0ad23d3b0331b1962d87d709a9dd3eb0fc63bd39
 Voyager   https://goerli.voyager.online/tx/0x00badbee6ae75ebfee51c89b0ad23d3b0331b1962d87d709a9dd3eb0fc63bd39
 00:23:22 [INFO] Execution time: 5.32 s
+```
 
-//executing view function with call command
+### Executing view function with call command
 
+```
 protostar call --contract-address 0x04ad3b268905128c7f5b9a71fa40bc38038aafc53ff6c0280ead2ddd615ffe9e --function "get_Sum" --network testnet
+```
+
+We obtain: 
+
+```
 [RAW RESULT]                                                                                                                                                
 [8]
 
@@ -199,3 +211,5 @@ protostar call --contract-address 0x04ad3b268905128c7f5b9a71fa40bc38038aafc53ff6
     "res": 8
 }
 00:50:40 [INFO] Execution time: 6.96 s
+
+
