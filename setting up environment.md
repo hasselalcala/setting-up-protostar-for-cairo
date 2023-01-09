@@ -84,7 +84,9 @@ cairo-path = ["./lib/cairo_contracts/src"]
 
 We put our source code in src directory and we can create tests.
 
---------AGREGAR APARTADO DE TESTS ---------
+## Tests in protostar
+
+Protostar provides a flexible testing environment for Cairo smart contracts. When we want to test a function, we create in the tests directory a new file called test_[FUNCTION_NAME].cairo, which contains a single test case. 
 
 To execute our tests, we run:
 ```
